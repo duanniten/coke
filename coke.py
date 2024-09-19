@@ -8,7 +8,7 @@ def main():
             print('Amount Due:', coke_value - total_inserted)
             
 
-    print("Changed owned:", total_inserted - coke_value)
+    print("Changed Owed:", total_inserted - coke_value)
 
 def get_coin():
     coin = input("Insert Coin: ").strip()
